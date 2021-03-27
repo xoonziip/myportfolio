@@ -65,7 +65,7 @@ body {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: #040b14;
+    background: #03071e;
     overflow-y: auto;
   }
   
@@ -274,10 +274,11 @@ body {
   section {
     padding: 60px 0;
     overflow: hidden;
+    background-color: #dad7cd;
   }
   
   .section-bg {
-    background: #f5f8fd;
+    background: #b7b7a4;
   }
   
   .section-title {
@@ -578,15 +579,16 @@ body {
 
 /*------------- portfolio -------------------*/
 .card{
-  margin-top: 20px;
+    margin-top: 20px;
+    background-color: #dad7cd;
 }
 .inner{
-overflow: hidden;   
+ overflow: hidden;   
 }
 .inner img{
-  transition: all 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 .inner:hover img{
-  transform: scale(1.5);
+    transform: scale(1.5);
 }
